@@ -8,6 +8,8 @@ MINISAT_OBJS  = cb_minisat/build/release/minisat/core/Solver.o  cb_minisat/build
 all: minisat libsubisosat.so tests
 
 install: libsubisosat.so
+	mkdir -p $(HOME)/lib/include/subisosat
+	cp include/* $(HOME)/lib/include/subisosat
 	cp ./libsubisosat.so $(HOME)/lib
 
 minisat:
