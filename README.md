@@ -7,3 +7,6 @@ This library provides methods to solve the subgraph isomorphism problem by using
  - igraph_count_subisomorphisms_sat
 
 The documentation for the equivelent igraph metods can be found at: http://igraph.org/c/doc/igraph-Isomorphism.html#igraph_subisomorphic.
+
+
+To compile, unpack and type make. To install into $home/lib, type make install.
