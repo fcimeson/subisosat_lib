@@ -1,5 +1,5 @@
 # subisosat_lib
-This library provides methods to solve the subgraph isomorphism problems using a SAT solver (minisat). The methods that the library provide are the same methods that the igraph library offers (with the same interface). Specifically
+This library provides methods to solve the subgraph isomorphism problems using a SAT solver (minisat), which was used in "Securing Computer Hardware Using 3D Integrated Circuit (IC) Technology and Split Manufacturing for Obfuscation". The methods that the library provide are the same methods that the igraph library offers (with the same interface). Specifically
  - igraph_subisomorphic_sat
  - igraph_get_subisomorphisms_sat
  - igraph_count_subisomorphisms_sat
